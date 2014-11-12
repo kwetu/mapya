@@ -12,18 +12,10 @@ version   = "1.0">
 	<gap:platform name="winphone" />
 	<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
 	<preference name="phonegap-version" value="3.3.0" />
-	<preference name="orientation" value="portrait" />
-	<preference name="fullscreen" value="false" />
-	<preference name="webviewbounce" value="false" />
-	<preference name="DisallowOverscroll" value="true"/>
-	<preference name="disallowOverscroll" value="true" />
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value= "false"
 	<preference name="exit-on-suspend" value="false" />
-	<preference name="prerendered-icon" value="false" />
-	<preference name="android-minSdkVersion" value="14" />
-	<preference name="android-installLocation" value="auto" />
-	<preference name="BackgroundColor" value="0xffffffff "/>
-	<preference name="exit-on-suspend" value="false" />
-	<preference name="KeepRunning" value="true"/>
+
 	
 	<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
@@ -35,6 +27,6 @@ version   = "1.0">
 	<gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<feature name="http://api.phonegap.com/1.0/device" />
-	<access origin="*" subdomains="true" />
+
 
 </widget>
